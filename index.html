@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UserPosts</title>
+</head>
+<body>
+
+<div id="passport-template">
+    <div class="myStyle">Name: {{name}}</div>
+    <div class="myStyle">User Name: {{userName}}</div>
+    <div class="myStyle">Email: {{email}}</div>
+    <ul class="myStyle2">
+        {{#each address}}
+        <li>{{this}}</li>
+        {{/each}}
+    </ul>
+    <div class="myStyle">Phone: {{phone}}</div>
+    <div class="myStyle">Website: {{website}}</div>
+    <div class="myStyle">Company: {{company}}</div>
+</div>
+
+<div id="posts-template">
+
+    <div class="myStyle">Title: {{title}}</div>
+    <div class="myStyle">Body: {{body}}</div>
+</div>
+
+<script src="src/jquery-3.1.1.min.js"></script>
+<script src="src/userPosts.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+
+
+</body>
+</html>
