@@ -1,3 +1,3 @@
 # UserPosts
 
-[https://rawgit.com/tomercaspi/FED/dev/fed.html]
+[https://rawgit.com/tomercaspi/userPosts/index.html]
