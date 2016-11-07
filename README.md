@@ -1,3 +1,3 @@
 # UserPosts
 
-[https://rawgit.com/tomercaspi/userPosts/index.html]
+[1]https://rawgit.com//tomercaspi/UserPosts/gh-pages/index.html
